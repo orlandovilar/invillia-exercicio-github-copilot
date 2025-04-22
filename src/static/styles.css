@@ -77,13 +77,27 @@ section h3 {
 .activity-card .participants-list {
   margin-top: 10px;
   padding-left: 20px;
-  list-style-type: disc;
-  color: #555;
+  list-style-type: none;
+  color: #333;
   font-size: 14px;
 }
 
 .activity-card .participants-list li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #1a237e;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.activity-card .participants-list li:hover {
+  background-color: #1a237e;
+  color: white;
 }
 
 .form-group {
